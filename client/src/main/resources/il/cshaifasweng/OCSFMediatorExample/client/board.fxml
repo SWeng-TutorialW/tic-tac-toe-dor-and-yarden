@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="394.0" prefWidth="305.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="il.cshaifasweng.OCSFMediatorExample.client.PrimaryController">
+   <children>
+      <Button fx:id="button1" layoutX="35.0" layoutY="129.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button2" layoutX="114.0" layoutY="129.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button3" layoutX="197.0" layoutY="129.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button4" layoutX="35.0" layoutY="216.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button5" layoutX="114.0" layoutY="216.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button6" layoutX="197.0" layoutY="216.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button7" layoutX="35.0" layoutY="300.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button8" layoutX="114.0" layoutY="300.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Button fx:id="button9" layoutX="197.0" layoutY="300.0" mnemonicParsing="false" onAction="#cellSelect" prefHeight="73.0" prefWidth="72.0" />
+      <Label layoutX="39.0" layoutY="28.0" prefHeight="48.0" prefWidth="64.0" text="Your Sign:" />
+      <Label fx:id="signLabel" disable="true" layoutX="114.0" layoutY="32.0" prefHeight="40.0" prefWidth="64.0" />
+      <Label layoutX="37.0" layoutY="76.0" text="Current Turn" />
+      <Label fx:id="turnLabel" disable="true" layoutX="123.0" layoutY="75.0" prefHeight="18.0" prefWidth="58.0" />
+   </children>
+</AnchorPane>

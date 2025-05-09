@@ -20,14 +20,13 @@ import org.greenrobot.eventbus.Subscribe;
 public class App extends Application {
 
     private static Scene scene;
-    private SimpleClient client;
+    public SimpleClient client;
 
     @Override
     public void start(Stage stage) throws IOException {
-    	EventBus.getDefault().register(this);
-    	client = SimpleClient.getClient();
-    	client.openConnection();
-        scene = new Scene(loadFXML("primary"), 640, 480);
+        EventBus.getDefault().register(this);
+        stage.setTitle("TicTacToe");
+        scene = new Scene(loadFXML("connect"), 640, 480);
         stage.setScene(scene);
         stage.show();
     }
