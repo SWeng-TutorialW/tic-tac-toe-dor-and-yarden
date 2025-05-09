@@ -14,7 +14,7 @@ public class SimpleClient extends AbstractClient {
 
     public static SimpleClient client = null;
     public static int port = 3000;
-    public static String ip = "5.29.14.198";
+    public static String ip = "localhost";
     public static String sign;
     public static String firstSign;
 
